@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff8089;
+  background-image: linear-gradient(0deg, #ff8089 0%, #4efff9 100%);
+}
+
+#card {
+  height: 450px;
+  width: 300px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+  text-align: center;
+}
+
+#card img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#card h1 {
+  font-size: 30px;
+  margin: 10px 0px;
+  font-weight: 700;
+}
+
+#card h5 {
+  font-size: 25px;
+  color: rgb(250, 36, 36);
+  margin-bottom: 20px;
+}
+
+#card h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
+
+#card button {
+  color: white;
+  background-color: rgb(1, 21, 78);
+  padding: 18px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  margin: 5px;
+  cursor: pointer;
+}
+#container {
+  /* background-color: white; */
+  position: relative;
+  overflow: hidden;
+}
+
+#container i {
+  color: #ff0b85;
+  font-size: 75px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: transform ease 0.4s;
+}
